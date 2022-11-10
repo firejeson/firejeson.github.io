@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>二进制-关于补码</title>
+      <link href="/posts/1eaa159.html"/>
+      <url>/posts/1eaa159.html</url>
+      
+        <content type="html"><![CDATA[<p>用一个例子来解释补码的原理：</p><blockquote><p><strong>假设现在标准时间为4点整，而有一只表已经到7点了，为了校准时间，可以采用两种方法：一种是将时针退7-4&#x3D;3格；二是将时针向前拨12-3&#x3D;9格，这两种方法都可以校准到4点。</strong></p></blockquote><p><em>摘自《计算机组成原理》p20 第2节</em></p><p>这个例子的意思可以理解为将7变为4，在12进制下可以表示为7-3和7+9</p><p>即钟表法则中</p><p><strong>7-3&#x3D;7+9 （称为同余式）</strong></p><p>看了这个例子，你大概已经知道能这样做的原因是什么了。</p><p>根本在于</p><p><strong>钟表法则中超过12的数会溢出，重新从0开始计算</strong></p><p><strong>准确的说这里的12应该被称为模长，也是补码得以有效的关键，在表示的数值大小被限制时，有了溢出就能将减法变成加法了</strong>。</p><p>有了这个条件，现在可以总结出一套推论</p><p><strong>模长为m时，x-y&#x3D;x+m-y</strong></p><p>你可能会觉得这有什么用？还是得用模长做减法才能得出这个等效加数呀</p><p>这就是二进制得天独厚的优势了</p><p>m-y可以转变为m-1-y+1</p><p><del>这不是废话吗</del></p><p><strong>别急，在二进制中计算机能表示的数的大小总是以位计算的，也就是说，假如总共有8位，那么模长就是2^8,能表示的是0~2^8-1之间的数。</strong></p><p><strong>这时候m-1表示的就是1111 1111，上面的m-1-y+1就是1111 1111 - y +1</strong></p><p><strong>而1111 1111-y等效于~y(对y求反)，求一个数的反码在计算机中是很容易实现的，通过触发器互补输出得到</strong></p><p><strong>这时x-y&#x3D;x+~y+1 补码由此实现将减法变为加法</strong></p><hr><p>总结</p><p><strong>补码的意义建立在二进制和数值位数确定的情况</strong></p><p><strong>补码通过溢出实现将减法转变为加法</strong></p><p><em>部分内容摘自知乎~补上一幅比较满意的NovelAI画</em></p><p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/%E4%B8%8B%E8%BD%BD.png" alt="下载"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知识理解 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 二进制 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>企划概述</title>
       <link href="/posts/93df21a7.html"/>
       <url>/posts/93df21a7.html</url>
@@ -45,9 +70,9 @@
       
         <tags>
             
-            <tag> 高中 </tag>
-            
             <tag> 日记 </tag>
+            
+            <tag> 高中 </tag>
             
         </tags>
       
@@ -216,9 +241,9 @@
       
         <tags>
             
-            <tag> 过去的杂记 </tag>
-            
             <tag> 高中 </tag>
+            
+            <tag> 过去的杂记 </tag>
             
         </tags>
       
