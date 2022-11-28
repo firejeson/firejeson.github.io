@@ -1,78 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>初步准备工作awa</title>
-    <url>/posts/51b6f973.html</url>
-    <content><![CDATA[<h1 id="一点点前期需要准备的工作awa"><a href="#一点点前期需要准备的工作awa" class="headerlink" title="一点点前期需要准备的工作awa"></a>一点点前期需要准备的工作awa</h1><h3 id="1-注册github账号"><a href="#1-注册github账号" class="headerlink" title="1.注册github账号"></a>1.注册github账号</h3><p><em>需要梯子</em></p>
-<p>打开github <a href="https://github.com/">GitHub</a></p>
-<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128221920185.png" alt="image-20221128221920185"></p>
-<p>在中间<strong>白色</strong>候选框输入邮箱点击sign up for github，之后按照流程完成注册。</p>
-<p><em>不建议使用以数字开头的qq邮箱（以及其他数字开头邮箱）。</em></p>
-<p><del>gayhub</del>github上多为英文，建议稍微熟悉一下操作逻辑等，周内可能会再出一篇进阶教程，其中有一些更深入的教程。</p>
-<h3 id="2-安装python"><a href="#2-安装python" class="headerlink" title="2.安装python"></a>2.安装python</h3><p><em>大概也许不是很需要梯子</em></p>
-<p>打开python网页 <a href="https://www.python.org/">Welcome to Python.org</a></p>
-<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128222330811.png" alt="image-20221128222330811"></p>
-<p>网页内第二导航栏选择<strong>Downloads-Windows-最新版本（目前为3.11.0）</strong></p>
-<p>等待文件下载完成后打开。</p>
-<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128222556416.png" alt="image-20221128222556416"></p>
-<p><strong>一定要勾选下面的Add python.exe to PATH！！</strong></p>
-<p><em>如需更改安装路径，选择Customize……</em></p>
-<p>安装完成后WIn+R打开运行窗口，输入cmd打开命令行提示符，键入python后回车如出现一下页面即代表已成功加入PATH。</p>
-<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128222915794.png" alt="image-20221128222915794"></p>
-<p><em>如有需要，可以安装其他基于python的工具如you-get（下载b站视频）ffmpeg（转码）等。</em></p>
-<p>如果因为网络原因无法下载，可选择国内镜像包<a href="https://developer.aliyun.com/mirror/?spm=a2c6h.13651102.0.0.353e1b11ksn3mn&serviceType=mirror&tag=%E8%AF%AD%E8%A8%80">阿里巴巴开源镜像站-OPSX镜像站-阿里云开发者社区 (aliyun.com)</a></p>
-<p><del>但是这样下载有点小难度</del></p>
-<h3 id="3-安装VS-Code"><a href="#3-安装VS-Code" class="headerlink" title="3.安装VS Code"></a>3.安装VS Code</h3><p><em>大概可能还是需要梯子的</em></p>
-<p>访问<a href="https://code.visualstudio.com/">Visual Studio Code - Code Editing. Redefined</a></p>
-<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128223459043.png" alt="image-20221128223459043"></p>
-<p>点那块蓝蓝的，stable build。<em>下载的慢的话看下面的国内镜像</em>。</p>
-<p>下载后配置可以看看这篇文章<a href="https://zhuanlan.zhihu.com/p/113222681?utm_source=wechat_session">史上最全vscode配置使用教程 - 知乎 (zhihu.com)</a></p>
-<p><del>绝对不是因为懒不想手打</del></p>
-<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128223731521.png" alt="image-20221128223731521"></p>
-<p>进入扩展页面搜索并安装以下几个扩展（如果在上面那篇文章没安装的话）</p>
-<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128223835125.png" alt="image-20221128223835125">对Python提供支持</p>
-<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128223846574.png" alt="image-20221128223846574">对MarkDown文件提供支持（.md结尾，本文就是markdown)</p>
-<p>以下几个是可选的</p>
-<p><img src="C:\Users\firejeson\AppData\Roaming\Typora\typora-user-images\image-20221128223908220.png" alt="image-20221128223908220">对c++提供支持</p>
-<p><img src="C:\Users\firejeson\AppData\Roaming\Typora\typora-user-images\image-20221128223952364.png" alt="image-20221128223952364">对c++直接编译提供支持</p>
-<p><img src="C:\Users\firejeson\AppData\Roaming\Typora\typora-user-images\image-20221128224014119.png" alt="image-20221128224014119">对Arduino单片机开发提供支持</p>
-<p>就这样吧，剩下的拓展玩意下次再写。</p>
-]]></content>
-      <categories>
-        <category>知识理解</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>拾光</title>
-    <url>/posts/37fda4d7.html</url>
-    <content><![CDATA[<h3 id="拾光"><a href="#拾光" class="headerlink" title="拾光"></a>拾光</h3><p>北陆的秋意愈发浓厚了，不得驱散寒意的太阳自赖尔逊河外落下，映得远方诺伦城围墙一片暗红。</p>
-<p>雨还在下着。</p>
-<p>诺伦城城主塔中，却没了往日雨天朦胧的火光。理应于壁炉前玩闹的孩子们，也不见了踪影。富丽堂皇的议事厅中，惟有几根蜡烛释放着微弱的光亮——却无从驱散窗外雨滴氤氲的诡寒。</p>
-<p>一般来说，通商的边境城市理应富庶，再加之血族与精灵族之间友好共处了百年有余。甚至还出现过视血族王法若无物，私奔出走精灵之森的血族精灵族情侣——即便如此，尼古拉王城也只是对此等行为做出谴责，并未有实质性的行动。故而，诺伦城的灯火，总是周边最喧嚣的那个。</p>
-<p>而今夜，坦桑维拉收获节结束后的第一个夜晚，乘兴而归的的血族们却遇到了与平日截然不同的诺伦城。兴许已经有人嗅到了一丝奇异的气息，却摆摆头，认为是白日的酒意正浓，冲淡了自我对环境正常的判断罢了。</p>
-<p>月亮出来了。</p>
-<p>照的诺伦城城墙四角，象征着血族荣耀的石像鬼愈加苍凉了。</p>
-<p>城门是开的，往常吊桥上巡守的精锐战士也不见了踪影。 剩下的，只有雨水中清澈的青石板，以及涟漪中央把头埋进翅中的游禽三两只。</p>
-<p>血族们欢笑着，走向了城边。</p>
-<p>血族们自如着，走上了吊桥。</p>
-<p>血族们寂静着，走出了后方血族的视野。</p>
-<p>城门外突然安静了，一如城门之内。他们血红的瞳孔中映衬着对未知的恐惧，如此的惊喜之中，酒也醒了七分。</p>
-<p>怎么回事？</p>
-<p>前面的同僚呢?</p>
-<p>甚至刚刚还在从天南侃到海北，却在一瞬间消失不见。</p>
-<p>他们惶恐了，向后退却了。在生存的驱策下，他们放弃了贵为血族的尊严，向着精灵族的乐土——精灵之森涌去。——谁也没有想到，他们竟会收获如此一份“大礼”。</p>
-<p>“看到了吗，亲爱的阿侧忒先生。”碧绿色眼眸中的星星悄然褪去，芊芊少女将视线从水晶球挪向身旁白发的血族，而后者的衣领，不觉间已然被冷汗浸没。</p>
-<p>“还请不要因为一些小小矛盾，打破两国之间长久的和平哈。”精致的宫廷晚礼服并未衬出少女曼妙的身材，反而给人一种小孩子穿妈妈衣服，装成大人的感觉。</p>
-<p>“你……你到底是谁？”血族男性的脸上大写着惶恐两个字。</p>
-<p>“我吗……”</p>
-<p>“你可以叫我拾光者。”</p>
-<p>金发碧眼的少女如是说道。</p>
-]]></content>
-      <categories>
-        <category>15天微型小说集-第一弹</category>
-      </categories>
-  </entry>
-  <entry>
     <title>企划概述</title>
     <url>/posts/93df21a7.html</url>
     <content><![CDATA[<h2 id="某位挖坑的菜狗又来挖坑了0v0"><a href="#某位挖坑的菜狗又来挖坑了0v0" class="headerlink" title="某位挖坑的菜狗又来挖坑了0v0"></a>某位挖坑的菜狗又来挖坑了0v0</h2><p>简而言之呢，就是在今后的15天里，<del>大概吧</del>，每天上传一篇微型小说，在锻炼文笔的同时<del>水水更新</del>。</p>
@@ -111,6 +39,36 @@
       <tags>
         <tag>log</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>拾光</title>
+    <url>/posts/37fda4d7.html</url>
+    <content><![CDATA[<h3 id="拾光"><a href="#拾光" class="headerlink" title="拾光"></a>拾光</h3><p>北陆的秋意愈发浓厚了，不得驱散寒意的太阳自赖尔逊河外落下，映得远方诺伦城围墙一片暗红。</p>
+<p>雨还在下着。</p>
+<p>诺伦城城主塔中，却没了往日雨天朦胧的火光。理应于壁炉前玩闹的孩子们，也不见了踪影。富丽堂皇的议事厅中，惟有几根蜡烛释放着微弱的光亮——却无从驱散窗外雨滴氤氲的诡寒。</p>
+<p>一般来说，通商的边境城市理应富庶，再加之血族与精灵族之间友好共处了百年有余。甚至还出现过视血族王法若无物，私奔出走精灵之森的血族精灵族情侣——即便如此，尼古拉王城也只是对此等行为做出谴责，并未有实质性的行动。故而，诺伦城的灯火，总是周边最喧嚣的那个。</p>
+<p>而今夜，坦桑维拉收获节结束后的第一个夜晚，乘兴而归的的血族们却遇到了与平日截然不同的诺伦城。兴许已经有人嗅到了一丝奇异的气息，却摆摆头，认为是白日的酒意正浓，冲淡了自我对环境正常的判断罢了。</p>
+<p>月亮出来了。</p>
+<p>照的诺伦城城墙四角，象征着血族荣耀的石像鬼愈加苍凉了。</p>
+<p>城门是开的，往常吊桥上巡守的精锐战士也不见了踪影。 剩下的，只有雨水中清澈的青石板，以及涟漪中央把头埋进翅中的游禽三两只。</p>
+<p>血族们欢笑着，走向了城边。</p>
+<p>血族们自如着，走上了吊桥。</p>
+<p>血族们寂静着，走出了后方血族的视野。</p>
+<p>城门外突然安静了，一如城门之内。他们血红的瞳孔中映衬着对未知的恐惧，如此的惊喜之中，酒也醒了七分。</p>
+<p>怎么回事？</p>
+<p>前面的同僚呢?</p>
+<p>甚至刚刚还在从天南侃到海北，却在一瞬间消失不见。</p>
+<p>他们惶恐了，向后退却了。在生存的驱策下，他们放弃了贵为血族的尊严，向着精灵族的乐土——精灵之森涌去。——谁也没有想到，他们竟会收获如此一份“大礼”。</p>
+<p>“看到了吗，亲爱的阿侧忒先生。”碧绿色眼眸中的星星悄然褪去，芊芊少女将视线从水晶球挪向身旁白发的血族，而后者的衣领，不觉间已然被冷汗浸没。</p>
+<p>“还请不要因为一些小小矛盾，打破两国之间长久的和平哈。”精致的宫廷晚礼服并未衬出少女曼妙的身材，反而给人一种小孩子穿妈妈衣服，装成大人的感觉。</p>
+<p>“你……你到底是谁？”血族男性的脸上大写着惶恐两个字。</p>
+<p>“我吗……”</p>
+<p>“你可以叫我拾光者。”</p>
+<p>金发碧眼的少女如是说道。</p>
+]]></content>
+      <categories>
+        <category>15天微型小说集-第一弹</category>
+      </categories>
   </entry>
   <entry>
     <title>拾忆</title>
@@ -181,6 +139,19 @@
       </tags>
   </entry>
   <entry>
+    <title>oneself</title>
+    <url>/posts/d9b1931a.html</url>
+    <content><![CDATA[<p>致踏入这里的你：</p>
+<p>​        早上，中午或者晚上好。<em>或者凌晨好。</em></p>
+<p>​		我是鎏玥，一个重庆带学在读的带学生。</p>
+<p>​		初入带学，自独木桥下的湍流得以挣脱，面对一望无垠的平原，忽而又走失了，迷惘了，不知何去何从了。看着身边人来人往，看着远方灯火辉煌，却又不由得扪心自问起来：我属于何方？何方属于我呢？</p>
+<p>​		带着未褪去的稚气走向熟悉又陌生的专业，</p>
+]]></content>
+      <categories>
+        <category>日记杂谈</category>
+      </categories>
+  </entry>
+  <entry>
     <title>浅析鸦片战争对中国近代的影响</title>
     <url>/posts/89744c97.html</url>
     <content><![CDATA[<p>​		震惊中外的鸦片战争是中国近代史的开端，它对中国的社会产生了深远的影响，同时对中国文化也造成了严重的冲击。那时，英国第一次工业革命基本完成，美国的工业革命也正如火如荼，而工业的发展并不是一蹴而就的，其需要大量的原料和商品市场作为支撑。工业资本主义的持续运转必须不断的开拓市场，需要源源不断的原料供应。而中国恰好能够满足工业资本主义的发展需求，于是西方资本主义列强便虎视眈眈，盯上了中国这块「肥肉」，都想从中国巨大的市场中分一杯羹。然而，当时清王朝纸醉金迷，顽固地认为自己是世界的中心，对外面的世界闭目塞听，做着天朝上国的美梦。此时的中国，政治是闭关锁国，经济是自给自足的自然经济，而这种政治和经济并不能阻碍资本主义的坚船利炮。在这种状况下英国政府为了打破贸易的僵局，开始向中国输入鸦片，借助鸦片撕开了中国贸易的口子，这也打开了中国的大门。鸦片对中国人的残害可谓无孔不入，在鸦片、毒瘤的控制下，清政府毫无战斗力与战斗欲望，百姓羸弱不堪。于是道光皇帝下旨命令林则徐虎门销烟，这也成为英国攻打中国的借口，于是，鸦片战争于1840年开始全面爆发。无论是金融业还是工商业，无论是政治还是人们的日常生活，都深受鸦片战争的影响。鸦片战争打开了中国大门，给当时的统治者当头一棒，为中国社会掀开了沉重的一页，同时这也促使一部分先进人士「睁眼看世界」，不断的学习先进技术、先进思想，掀起了新思潮。本文将简要分析鸦片战争对中国的影响，并据此反思。</p>
@@ -236,19 +207,6 @@
         <tag>高中</tag>
         <tag>过去的杂记</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>oneself</title>
-    <url>/posts/d9b1931a.html</url>
-    <content><![CDATA[<p>致踏入这里的你：</p>
-<p>​        早上，中午或者晚上好。<em>或者凌晨好。</em></p>
-<p>​		我是鎏玥，一个重庆带学在读的带学生。</p>
-<p>​		初入带学，自独木桥下的湍流得以挣脱，面对一望无垠的平原，忽而又走失了，迷惘了，不知何去何从了。看着身边人来人往，看着远方灯火辉煌，却又不由得扪心自问起来：我属于何方？何方属于我呢？</p>
-<p>​		带着未褪去的稚气走向熟悉又陌生的专业，</p>
-]]></content>
-      <categories>
-        <category>日记杂谈</category>
-      </categories>
   </entry>
   <entry>
     <title>关于鎏玥</title>
@@ -539,6 +497,48 @@
       <tags>
         <tag>article_avartia</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>初步准备工作awa</title>
+    <url>/posts/51b6f973.html</url>
+    <content><![CDATA[<h1 id="一点点前期需要准备的工作awa"><a href="#一点点前期需要准备的工作awa" class="headerlink" title="一点点前期需要准备的工作awa"></a>一点点前期需要准备的工作awa</h1><h3 id="1-注册github账号"><a href="#1-注册github账号" class="headerlink" title="1.注册github账号"></a>1.注册github账号</h3><p><em>需要梯子</em></p>
+<p>打开github <a href="https://github.com/">GitHub</a></p>
+<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128221920185.png" alt="image-20221128221920185"></p>
+<p>在中间<strong>白色</strong>候选框输入邮箱点击sign up for github，之后按照流程完成注册。</p>
+<p><em>不建议使用以数字开头的qq邮箱（以及其他数字开头邮箱）。</em></p>
+<p><del>gayhub</del>github上多为英文，建议稍微熟悉一下操作逻辑等，周内可能会再出一篇进阶教程，其中有一些更深入的教程。</p>
+<h3 id="2-安装python"><a href="#2-安装python" class="headerlink" title="2.安装python"></a>2.安装python</h3><p><em>大概也许不是很需要梯子</em></p>
+<p>打开python网页 <a href="https://www.python.org/">Welcome to Python.org</a></p>
+<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128222330811.png" alt="image-20221128222330811"></p>
+<p>网页内第二导航栏选择<strong>Downloads-Windows-最新版本（目前为3.11.0）</strong></p>
+<p>等待文件下载完成后打开。</p>
+<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128222556416.png" alt="image-20221128222556416"></p>
+<p><strong>一定要勾选下面的Add python.exe to PATH！！</strong></p>
+<p><em>如需更改安装路径，选择Customize……</em></p>
+<p>安装完成后WIn+R打开运行窗口，输入cmd打开命令行提示符，键入python后回车如出现一下页面即代表已成功加入PATH。</p>
+<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128222915794.png" alt="image-20221128222915794"></p>
+<p><em>如有需要，可以安装其他基于python的工具如you-get（下载b站视频）ffmpeg（转码）等。</em></p>
+<p>如果因为网络原因无法下载，可选择国内镜像包<a href="https://developer.aliyun.com/mirror/?spm=a2c6h.13651102.0.0.353e1b11ksn3mn&serviceType=mirror&tag=%E8%AF%AD%E8%A8%80">阿里巴巴开源镜像站-OPSX镜像站-阿里云开发者社区 (aliyun.com)</a></p>
+<p><del>但是这样下载有点小难度</del></p>
+<h3 id="3-安装VS-Code"><a href="#3-安装VS-Code" class="headerlink" title="3.安装VS Code"></a>3.安装VS Code</h3><p><em>大概可能还是需要梯子的</em></p>
+<p>访问<a href="https://code.visualstudio.com/">Visual Studio Code - Code Editing. Redefined</a></p>
+<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128223459043.png" alt="image-20221128223459043"></p>
+<p>点那块蓝蓝的，stable build。<em>下载的慢的话看下面的国内镜像</em>。</p>
+<p>下载后配置可以看看这篇文章<a href="https://zhuanlan.zhihu.com/p/113222681?utm_source=wechat_session">史上最全vscode配置使用教程 - 知乎 (zhihu.com)</a></p>
+<p><del>绝对不是因为懒不想手打</del></p>
+<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128223731521.png" alt="image-20221128223731521"></p>
+<p>进入扩展页面搜索并安装以下几个扩展（如果在上面那篇文章没安装的话）</p>
+<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128223835125.png" alt="image-20221128223835125">对Python提供支持</p>
+<p><img src="https://img-firejeson-hexo.oss-cn-hangzhou.aliyuncs.com/img/image-20221128223846574.png" alt="image-20221128223846574">对MarkDown文件提供支持（.md结尾，本文就是markdown)</p>
+<p>以下几个是可选的</p>
+<p><img src="C:\Users\firejeson\AppData\Roaming\Typora\typora-user-images\image-20221128223908220.png" alt="image-20221128223908220">对c++提供支持</p>
+<p><img src="C:\Users\firejeson\AppData\Roaming\Typora\typora-user-images\image-20221128223952364.png" alt="image-20221128223952364">对c++直接编译提供支持</p>
+<p><img src="C:\Users\firejeson\AppData\Roaming\Typora\typora-user-images\image-20221128224014119.png" alt="image-20221128224014119">对Arduino单片机开发提供支持</p>
+<p>就这样吧，剩下的拓展玩意下次再写。</p>
+]]></content>
+      <categories>
+        <category>知识理解</category>
+      </categories>
   </entry>
   <entry>
     <title>引子，和黑历史</title>
